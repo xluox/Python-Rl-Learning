@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.13.0-7620-generic-x86_64-with-glibc2.33",
+    "python": "3.9.5",
+    "heartbeatAt": "2021-11-10T03:56:19.147167",
+    "startedAt": "2021-11-10T03:56:18.305271",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 970",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--track",
+        "--capture-video"
+    ],
+    "state": "running",
+    "program": "/home/shire/Documents/GitHub/Python-Rl-Learning/ppo.py",
+    "codePath": "ppo.py",
+    "git": {
+        "remote": "https://github.com/xluox/Python-Rl-Learning.git",
+        "commit": "5ed88d701e21fa9c269d0bd29166d388cd00f312"
+    },
+    "email": "wdljwan@gmail.com",
+    "root": "/home/shire/Documents/GitHub/Python-Rl-Learning",
+    "host": "pop-os",
+    "username": "shire",
+    "executable": "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/bin/python"
+}

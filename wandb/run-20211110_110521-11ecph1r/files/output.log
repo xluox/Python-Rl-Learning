@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/envs/classic_control/rendering.py", line 15, in <module>
+    import pyglet
+ModuleNotFoundError: No module named 'pyglet'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/shire/Documents/GitHub/Python-Rl-Learning/ppo.py", line 179, in <module>
+    next_obs = torch.Tensor(envs.reset()).to(device)
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/vector/vector_env.py", line 61, in reset
+    return self.reset_wait()
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/vector/sync_vector_env.py", line 69, in reset_wait
+    observation = env.reset()
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/wrappers/record_video.py", line 58, in reset
+    self.start_video_recorder()
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/wrappers/record_video.py", line 75, in start_video_recorder
+    self.video_recorder.capture_frame()
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/wrappers/monitoring/video_recorder.py", line 132, in capture_frame
+    frame = self.env.render(mode=render_mode)
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/core.py", line 295, in render
+    return self.env.render(mode, **kwargs)
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/core.py", line 295, in render
+    return self.env.render(mode, **kwargs)
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/envs/classic_control/cartpole.py", line 179, in render
+    from gym.envs.classic_control import rendering
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/envs/classic_control/rendering.py", line 17, in <module>
+    raise ImportError(
+ImportError:
+    Cannot import pyglet.
+    HINT: you can install pyglet directly via 'pip install pyglet'.
+    But if you really just want to install all Gym dependencies and not have to think about it,
+    'pip install -e .[all]' or 'pip install gym[all]' will do it.

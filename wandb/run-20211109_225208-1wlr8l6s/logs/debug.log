@@ -1,0 +1,154 @@
+2021-11-09 22:52:08,008 INFO    MainThread:240181 [wandb_setup.py:_flush():71] setting env: {}
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [wandb_init.py:_log_setup():357] Logging user logs to /home/shire/Documents/GitHub/Python-Rl-Learning/wandb/run-20211109_225208-1wlr8l6s/logs/debug.log
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [wandb_init.py:_log_setup():358] Logging internal logs to /home/shire/Documents/GitHub/Python-Rl-Learning/wandb/run-20211109_225208-1wlr8l6s/logs/debug-internal.log
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [wandb_init.py:init():390] calling init triggers
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {'exp_name': 'ppo', 'gym_id': 'CartPole-v1', 'learning_rate': 0.00025, 'seed': 1, 'total_timesteps': 25000, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'cleanRL', 'wandb_entity': None, 'capture_video': True, 'num_envs': 4, 'num_steps': 128, 'anneal_lr': True, 'gae': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'num_minibatches': 4, 'update_epochs': 4, 'norm_adv': True, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.01, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None, 'batch_size': 512, 'minibatch_size': 128}
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [wandb_init.py:init():435] starting backend
+2021-11-09 22:52:08,009 INFO    MainThread:240181 [backend.py:_multiprocessing_setup():95] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-11-09 22:52:08,017 INFO    MainThread:240181 [backend.py:ensure_launched():199] starting backend process...
+2021-11-09 22:52:08,020 INFO    MainThread:240181 [backend.py:ensure_launched():204] started backend process with pid: 240216
+2021-11-09 22:52:08,022 INFO    MainThread:240181 [wandb_init.py:init():444] backend started and connected
+2021-11-09 22:52:08,025 INFO    MainThread:240181 [wandb_init.py:init():503] updated telemetry
+2021-11-09 22:52:08,035 INFO    MainThread:240181 [wandb_init.py:init():533] communicating current version
+2021-11-09 22:52:08,541 INFO    MainThread:240181 [wandb_init.py:init():538] got version response 
+2021-11-09 22:52:08,541 INFO    MainThread:240181 [wandb_init.py:init():548] communicating run to backend with 30 second timeout
+2021-11-09 22:52:08,750 INFO    MainThread:240181 [wandb_init.py:init():576] starting run threads in backend
+2021-11-09 22:52:08,852 INFO    MainThread:240181 [wandb_run.py:_console_start():1693] atexit reg
+2021-11-09 22:52:08,853 INFO    MainThread:240181 [wandb_run.py:_redirect():1567] redirect: SettingsConsole.REDIRECT
+2021-11-09 22:52:08,853 INFO    MainThread:240181 [wandb_run.py:_redirect():1572] Redirecting console.
+2021-11-09 22:52:08,862 INFO    MainThread:240181 [wandb_run.py:_redirect():1628] Redirects installed.
+2021-11-09 22:52:08,862 INFO    MainThread:240181 [wandb_init.py:init():603] run started, returning control to user process
+2021-11-09 22:52:08,862 INFO    MainThread:240181 [wandb_run.py:_tensorboard_callback():984] tensorboard callback: runs/CartPole-v1__ppo__1__1636516326, None
+2021-11-09 22:52:08,903 INFO    MainThread:240181 [wandb_run.py:_atexit_cleanup():1663] got exitcode: 1
+2021-11-09 22:52:08,903 INFO    MainThread:240181 [wandb_run.py:_restore():1635] restore
+2021-11-09 22:52:11,375 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 1
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 16147
+  total_bytes: 16147
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:16,476 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: None
+2021-11-09 22:52:17,902 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 1
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 16147
+  total_bytes: 16147
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:18,046 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 1
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 16147
+  total_bytes: 16147
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:18,819 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 16147
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:18,933 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 16147
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,036 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,141 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,243 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,346 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,449 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,637 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+
+2021-11-09 22:52:19,975 INFO    MainThread:240181 [wandb_run.py:_wait_for_finish():1793] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19397
+  total_bytes: 19397
+  deduped_bytes: 14636
+}
+local_info {
+}
+
+2021-11-09 22:52:21,103 INFO    MainThread:240181 [wandb_run.py:_append_history():2011] rendering history
+2021-11-09 22:52:21,103 INFO    MainThread:240181 [wandb_run.py:_append_summary():1966] rendering summary
+2021-11-09 22:52:21,103 INFO    MainThread:240181 [wandb_run.py:_append_files():2061] logging synced files

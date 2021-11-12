@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/shire/Documents/GitHub/Python-Rl-Learning/ppo.py", line 162, in <module>
+    envs = gym.vector.SyncVectorEnv(
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/vector/sync_vector_env.py", line 34, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/shire/.pyenv/versions/3.9.5/envs/python_rl_learning/lib/python3.9/site-packages/gym/vector/sync_vector_env.py", line 34, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/shire/Documents/GitHub/Python-Rl-Learning/ppo.py", line 86, in thunk
+    env = gym.wrappers.RecordVideo(env, f"videos/{run_name}")
+AttributeError: module 'gym.wrappers' has no attribute 'RecordVideo'
