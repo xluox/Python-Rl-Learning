@@ -31,7 +31,7 @@ Train agents:
 ```
 poetry run python ppo_atari.py
 ```
-Train agents with experiment tracking:
+Train agents with experiment tracking (You should have Weights and Biases account for this feature):
 ```
 poetry run python ppo_atari.py --track --capture-video
 ```
