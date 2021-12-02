@@ -16,7 +16,7 @@ Train agents:
 poetry run python ppo.py
 ```
 
-Train agents with experiment tracking:
+Train agents with experiment tracking (You should have Weights and Biases account for this feature):
 ```
 poetry run python ppo.py --track --capture-video
 ```
